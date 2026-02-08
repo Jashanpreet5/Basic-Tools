@@ -16,6 +16,7 @@ It helps identify:
 ```bash
 nmap <scan types> <options> <target>
 ```
+
 Nmap Architecture:
 -Host discovery
 -Port scanning
@@ -23,4 +24,4 @@ Nmap Architecture:
 -OS detection
 -Scriptable interaction with the target service (Nmap Scripting Engine)
 
-
+---
