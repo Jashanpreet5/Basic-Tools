@@ -17,11 +17,23 @@ It helps identify:
 nmap <scan types> <options> <target>
 ```
 
-Nmap Architecture:
--Host discovery
--Port scanning
--Service enumeration and detection
--OS detection
--Scriptable interaction with the target service (Nmap Scripting Engine)
+## Nmap Architecture
 
----
+Nmap scanning is divided into the following main phases:
+
+- **Host Discovery**  
+  Identifies which hosts are alive on the network.
+
+- **Port Scanning**  
+  Determines which ports are open on the target system.
+
+- **Service Enumeration and Detection**  
+  Detects running services and their versions on open ports.
+
+- **OS Detection**  
+  Identifies the operating system and its version.
+
+- **Scriptable Interaction (Nmap Scripting Engine - NSE)**  
+  Uses scripts to interact with services, detect vulnerabilities, and gather deeper information.
+
+
